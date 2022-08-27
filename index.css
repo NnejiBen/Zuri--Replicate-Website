@@ -104,31 +104,49 @@
   color: #514949;
 }
 
+/* DOTS */
+
+#dots-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -345px;
+}
+
+.dots-left img[src="images/row3_col1_bg.png"] {
+  height: 400px;
+  width: 400px;
+  margin-left: -75px;
+}
+
+.dots-right img[src="images/row3_col3_bg.png"] {
+  height: 400px;
+  width: 400px;
+  margin-right: -100px;
+}
+
 /* ROW THREE */
 
 #row-three {
   display: flex;
-  justify-content: space-around;
-  margin-left: 60px;
-  margin-right: 60px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1.5rem;
 }
 
 #row-three-col-1 {
-  margin-right: 15px;
   background-color: #fffafa;
-  padding: 61px 10px 82px 36px;
+  padding: 50px 30px 80px 30px;
 }
 
 #row-three-col-2 {
   background-color: #fffafa;
-  padding: 61px 47px 82px 36px;
-  margin: 0 15px;
+  padding: 50px 30px 80px 30px;
 }
 
 #row-three-col-3 {
-  margin-left: 15px;
   background-color: #fffafa;
-  padding: 61px 38px 82px 36px;
+  padding: 50px 30px 80px 30px;
 }
 
 .row-three-col-1-paragraph {
@@ -179,32 +197,15 @@
   opacity: 0.9;
 }
 
-#dots-container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: -345px;
-}
-
-.dots-left img[src="images/row3_col1_bg.png"] {
-  height: 400px;
-  width: 400px;
-  margin-left: -75px;
-}
-
-.dots-right img[src="images/row3_col3_bg.png"] {
-  height: 400px;
-  width: 400px;
-  margin-right: -100px;
-}
-
 /* ROW FOUR */
 
 #row-four {
   display: flex;
   justify-content: space-between;
+  width: 90%;
   margin-top: 200px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #row-four-col-1 img[src="images/zuri-team-img.svg"] {
@@ -267,9 +268,10 @@ main #row-four-col-4 img {
   cursor: pointer;
 }
 
-main #divider-container hr {
-  margin-left: 60px;
-  margin-right: 60px;
+hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 80px;
   margin-bottom: 30px;
   height: 1.5px;
